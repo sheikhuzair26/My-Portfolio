@@ -1,0 +1,167 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    color: white;
+}
+
+#info, #data-sec, #work-sec, #edu-sec, #certificates {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2em 7em;
+}
+
+.basics {
+    margin-bottom: 3em;
+}
+
+.nameHeading {
+    font-size: 4em;
+}
+
+.resumeHeading {
+    font-size: 5em;
+    text-transform: uppercase;
+}
+
+.border-bottom {
+    border-bottom: 1px solid;
+    width: -webkit-fill-available;
+    margin: 15px 0px;
+}
+
+/* second Section */
+
+#dataContainer, #workContainer, #eduContainer {
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+
+.main-intro, .work-intro, .edu-intro {
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.main-intro {
+    margin: -26px 50px 27px 0px;
+    padding: 51px 18px;
+    font-size: 11px;
+    background-color: darkgray;
+}
+
+.work-intro {
+    margin: -30px 50px 0px 0px;
+    padding: 54px 7px;
+    font-size: 11px;
+    background-color: darkcyan;
+}
+
+.edu-intro {
+    margin: -17px 50px 0px 0px;
+    padding: 51px 25px;
+    font-size: 12px;
+    background-color: red;
+}
+
+.degree {
+    margin-bottom: 10px;
+}
+
+.bs-details {
+    margin-bottom: 30px;
+}
+
+i.fas.fa-circle {
+    font-size: 13px;
+}
+
+i {
+    margin-right: 20px;
+}
+
+#cer-container {
+    display: flex;
+    align-items: center;
+}
+
+.fcc {
+    height: 6em;
+    margin-right: 2em;
+    border-radius: 100%;
+    border: 1px solid #006400;
+    background: #006400;
+}
+
+.certificateInfo {
+    line-height: 7px;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width:600px) {
+    #info, #data-sec, #work-sec, #edu-sec, #certificates {
+        padding: 1em 1em;
+    }
+    .main-intro {
+        margin: 4px 50px 244px 0px;
+        padding: 9px 12px;
+    }
+    .resumeHeading {
+        font-size: 4em;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .nameHeading {
+        font-size: 3em;
+    }
+    .main-intro {
+        margin: -16px 26px 238px 0px;
+        padding: 27px 1px;
+    }
+    .resumeHeading {
+        font-size: 3em;
+    }
+    p.info-content {
+        font-size: 15px;
+    }
+    #dataContainer, #eduContainer {
+        margin-bottom: 0em;
+    }
+    .work-intro {
+        margin: 0px 40px 43px 0px;
+        padding: 34px 5px;
+    }
+    .edu-intro {
+        margin: -17px 31px 0px 0px;
+        padding: 38px 8px;
+    }
+    .fcc {
+        height: 5em;
+        margin-right: 26px;
+    }
+    .certificateInfo {
+        line-height: 16px;
+        font-size: 14px;
+        text-align: center;
+        text-transform: capitalize;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .main-intro {
+        margin: 0px 26px 261px 0px;
+        padding: 27px 3px;
+    }
+    .work-intro {
+        margin: 12px 33px 44px 0px;
+        padding: 5px 7px;
+    }
+}

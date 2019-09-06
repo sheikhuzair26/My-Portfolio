@@ -1,0 +1,91 @@
+body {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    /* font-family: 'Oswald', sans-serif; */
+}
+
+.container {
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+    padding: 0em 10em;
+}
+
+#mainContainer h1 {
+    text-align: center;
+    text-shadow: 6px 11px 7px;
+    font-size: 3em;
+}
+
+#mainContainer h2 {
+    margin-top: 0px;
+    text-shadow: 6px 11px 7px;
+}
+
+#mainContainer {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.float {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.skillBox {
+    box-sizing: border-box;
+    margin: 10px 0px 10px 0px;
+}
+
+.skillBox p {
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0px 0px 10px;
+    padding: 0px;
+    font-family: bold;
+    letter-spacing: 1px;
+}
+
+skillBox p:nth-child(2) {
+    display: flex;
+    float: right;
+}
+
+.skill {
+    background: black;
+    padding: 4px;
+    box-sizing: border-box;
+    border: 1px solid #0fffb7;
+    border-radius: 2px;
+}
+
+.skillLevel {
+    background: white;
+    width: 100%;
+    height: 7px;
+}
+
+.general {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin-bottom: 1em;
+}
+
+.general i {
+    margin-right: 3em;
+}
+
+@media screen and (max-width:530px) {
+    .container {
+        padding: 0em;
+        margin: 0em 1em;
+        /* width: 30em; */
+    }
+    #mainContainer h1 {
+        font-size: 2em;
+    }
+}
