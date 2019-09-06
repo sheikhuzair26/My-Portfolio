@@ -1,9 +1,11 @@
-body {
-    font-family: 'Kaushan Script', cursive;
-}
 
 html {
     scroll-behavior: smooth;
+}
+
+
+body {
+    font-family: 'Courgette', cursive;
 }
 
 #page-wraper {
@@ -196,10 +198,6 @@ html {
     color: inherit;
 }
 
-.menu {
-    text-align: center;
-}
-
 .menu::-webkit-scrollbar {
     display: none;
 }
@@ -209,6 +207,7 @@ html {
     -webkit-transition: -webkit-transform 233ms cubic-bezier(0, 0, 0.21, 1);
     -webkit-overflow-scrolling: touch;
     background-color: #f7293d;
+    text-align: center;
     box-sizing: border-box;
     height: 100vh;
     max-height: 100vh !important;
@@ -402,21 +401,9 @@ html {
 }
 
 #firstsection p {
-    font-size: 12px;
-    line-height: 16px;
+    font-size: 20px;
+    line-height: 22px;
     color: #fff;
-}
-
-#firstsection .circleResume {
-    color: white;
-}
-
-#firstsection .circleProject {
-    color: white;
-}
-
-#firstsection .circleSkills {
-    color: white;
 }
 
 #circles {
@@ -430,7 +417,7 @@ html {
     cursor: pointer;
 }
 
-#circle a {
+#circles a {
     color: #232323;
 }
 
@@ -439,13 +426,10 @@ html {
 }
 
 .circleResume, .circleProject, .circleSkills {
-    margin-left: 1em;
-    margin-right: 1em;
+    margin: 0em 1em;
     border-style: solid;
     border-radius: 100%;
     padding: 51px 20px;
-    background-color: white;
-    color: black;
     font-size: 13px;
     border-color: transparent;
     transition: all 0.9s;

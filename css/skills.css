@@ -2,11 +2,11 @@ body {
     color: white;
     display: flex;
     flex-direction: column;
-    /* font-family: 'Oswald', sans-serif; */
+    font-family: 'Courgette', cursive;
+
 }
 
 .container {
-    /* border: 1px solid white; */
     display: flex;
     flex-direction: column;
     padding: 0em 10em;
@@ -45,7 +45,7 @@ body {
     text-transform: uppercase;
     margin: 0px 0px 10px;
     padding: 0px;
-    font-family: bold;
+    font-weight: bold;
     letter-spacing: 1px;
 }
 

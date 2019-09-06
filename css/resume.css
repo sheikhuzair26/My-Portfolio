@@ -5,6 +5,7 @@
 
 body {
     color: white;
+    font-family: 'Courgette', cursive;
 }
 
 #info, #data-sec, #work-sec, #edu-sec, #certificates {
@@ -123,8 +124,12 @@ i {
         font-size: 3em;
     }
     .main-intro {
-        margin: -16px 26px 238px 0px;
-        padding: 27px 1px;
+        margin: 0px 31px 296px 0px;
+        padding: 38px 8px;
+    }
+    .work-intro {
+        margin: 0px 39px 65px 0px;
+        padding: 0px 14px;
     }
     .resumeHeading {
         font-size: 3em;
@@ -134,10 +139,6 @@ i {
     }
     #dataContainer, #eduContainer {
         margin-bottom: 0em;
-    }
-    .work-intro {
-        margin: 0px 40px 43px 0px;
-        padding: 34px 5px;
     }
     .edu-intro {
         margin: -17px 31px 0px 0px;
@@ -155,13 +156,31 @@ i {
     }
 }
 
-@media screen and (max-width:320px) {
+@media screen and (max-width:360px) {
     .main-intro {
-        margin: 0px 26px 261px 0px;
-        padding: 27px 3px;
+        margin: 0px 31px 296px 0px;
+        padding: 38px 8px;
     }
     .work-intro {
-        margin: 12px 33px 44px 0px;
-        padding: 5px 7px;
+        margin: 0px 39px 65px 0px;
+        padding: 0px 14px;
+    }
+}
+
+@media screen and (max-width:340px) {
+    .main-intro {
+        margin: 0px 31px 296px 0px;
+        padding: 38px 8px;
+    }
+    .work-intro {
+        margin: 0px 39px 65px 0px;
+        padding: 0px 14px;
+    }
+}
+
+@media screen and (max-width:340px) {
+    .main-intro {
+        margin: 0px 31px 350px 0px;
+        padding: 38px 8px;
     }
 }
