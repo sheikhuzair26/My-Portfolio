@@ -1,8 +1,6 @@
-
 html {
     scroll-behavior: smooth;
 }
-
 
 body {
     font-family: 'Courgette', cursive;
@@ -433,6 +431,7 @@ html {
     font-size: 13px;
     border-color: transparent;
     transition: all 0.9s;
+    font-family: 'Courgette', cursive;
 }
 
 .circleProject {
