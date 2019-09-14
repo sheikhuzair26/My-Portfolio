@@ -53,14 +53,15 @@ body {
 
 .main-intro {
     margin: -26px 50px 27px 0px;
-    padding: 51px 18px;
+    padding: 40px 18px;
     font-size: 11px;
+    text-align: center;
     background-color: darkgray;
 }
 
 .work-intro {
-    margin: -30px 50px 0px 0px;
-    padding: 54px 7px;
+    margin: -13px 50px 0px 0px;
+    padding: 19px 9px;
     font-size: 11px;
     background-color: darkcyan;
 }
@@ -159,11 +160,17 @@ i {
 @media screen and (max-width:360px) {
     .main-intro {
         margin: 0px 31px 296px 0px;
-        padding: 38px 8px;
+        padding: 35px 12px;
+        text-align: center;
     }
     .work-intro {
         margin: 0px 39px 65px 0px;
-        padding: 0px 14px;
+        padding: 0px 17px;
+        text-align: center;
+    }
+    .edu-intro {
+        margin: -17px 31px 0px 0px;
+        padding: 38px 13px;
     }
 }
 
