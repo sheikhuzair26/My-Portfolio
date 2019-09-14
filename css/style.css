@@ -146,6 +146,10 @@ html {
     margin-top: 60px;
 }
 
+.menu .social-network i {
+    padding: 11px;
+}
+
 .menu .social-network ul li {
     margin: 0 3px;
 }
